@@ -1,5 +1,6 @@
 # meteorS3
-Meteor 'hello world' with AWS S3 upload functionality
+Meteor 'hello world' with AWS S3 upload functionality.
+The IP address of a client is logged with a timestamp.
 
 #### This project is made to be deployed to Modulus
 This project is set up in a straightforward way to easily deploy to the Modulus platform.
