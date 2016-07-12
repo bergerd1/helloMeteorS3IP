@@ -1,0 +1,32 @@
+<head>
+<style>
+	sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+  <title>meteorHello</title>
+</head>
+
+<body>
+  <h1>Welcome to my Meteor website!</h1>
+  <h2>David is the best!</h2>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button id="button1">Click Me to add</button> <br> <br>
+  <button id="button2">Click Me to subtract</button>
+  <p>You've pressed the button <b>{{counter}}</b> times.</p>
+
+<br>
+<br>
+<p>Do you want to upload a file?</p>
+    <input type="file" class="file_bag">
+    <button class="upload">Upload</button>
+
+    {{#each files}}
+        <p>{{percent_uploaded}}</p>
+    {{/each}}
+
+</template>
